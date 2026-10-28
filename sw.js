@@ -1,5 +1,5 @@
-/* Human Avatar Studio v1.1.0: app shell only; never cache Worker AI calls. */
-const CACHE='human-avatar-studio-shell-v1.1.0';
+/* Human Avatar Studio v1.2.0: app shell only; never cache Worker AI calls. */
+const CACHE='human-avatar-studio-shell-v1.2.0';
 const SHELL=['./','./index.html','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png'];
 self.addEventListener('install', event => { event.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()).catch(() => self.skipWaiting())); });
 self.addEventListener('activate', event => { event.waitUntil(Promise.all([caches.keys().then(names => Promise.all(names.filter(n => n.startsWith('human-avatar-studio-shell-') && n !== CACHE).map(n => caches.delete(n)))), self.clients.claim()])); });
