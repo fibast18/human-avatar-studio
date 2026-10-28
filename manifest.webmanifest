@@ -2,7 +2,7 @@
   "id": "./",
   "name": "Human Avatar Studio",
   "short_name": "Human Avatar",
-  "description": "Free interactive male and female 3D human avatars with movement, mood and voice controls.",
+  "description": "Human Avatar Studio v1.1.0: two 3D humans, motion controls and optional free Hybrid AI.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
