@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Human Avatar Studio logo">
+  <defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#1d2f55"/><stop offset="1" stop-color="#0a142a"/></linearGradient><linearGradient id="stroke" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#7fabff"/><stop offset="1" stop-color="#64f7d4"/></linearGradient></defs>
+  <rect x="15" y="15" width="482" height="482" rx="115" fill="url(#bg)" stroke="url(#stroke)" stroke-width="18"/>
+  <circle cx="256" cy="190" r="83" fill="none" stroke="url(#stroke)" stroke-width="24"/>
+  <path d="M110 398c0-89 65-137 146-137s146 48 146 137" fill="none" stroke="url(#stroke)" stroke-width="27" stroke-linecap="round"/>
+  <circle cx="228" cy="179" r="7" fill="#80eedf"/><circle cx="285" cy="179" r="7" fill="#80eedf"/>
+  <path d="M224 214Q255 239 287 214" fill="none" stroke="#80eedf" stroke-width="9" stroke-linecap="round"/>
+</svg>
